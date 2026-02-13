@@ -100,9 +100,6 @@ A simulated dataset was generated using the Panda power library. Power flow anal
 Non-attacked data were produced by scaling the load demands at each bus to 25%, 50%, 75%, and 100% of their nominal values, with the corresponding voltage magnitudes and angles computed and stored as state variables. To simulate attacked data, FDIAs were introduced by modifying voltage magnitudes and angles by 5%–50% on selected buses (0, 1, and 5). Additionally, systematic angle deviations of up to 5° were applied to emulate coordinated attack strategies. 
 Each data sample represents the electrical state of the system under specific operating conditions, consisting of 34 features (voltage, angle, and load information). 336 labelled samples were generated, divided into 268 for training (80%) and 68 for testing (20%). Of the test set, 55 correspond to non-attacked states and 13 to attacked states, introducing class imbalance consistent with realistic scenarios. Attacked data points were labelled as “1,” while normal samples were labelled as “0,” forming a binary classification framework suitable for FDIA detection. To emphasize the severity and stealthiness of FDIAs, small deviations such as 5%–50% in voltage magnitudes and up to 5° in angles were sufficient to significantly distort state estimation while remaining undetected by traditional BDD techniques. This study employs 336 samples for the IEEE 14-bus system and 2832 samples for the IEEE 118-bus system.
 
-Dataset generation code:
-
-
 Dataset:
 
 •	IEEE 14-bus system FDIA data set
