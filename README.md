@@ -92,7 +92,7 @@ Source Code:
 
 Proposed method: SACGAN-GP Model
 
-Base line method: Isolation Forest, LSTM AE, GAN, WGAN, CGAN
+Base line method: Isolation Forest,GAN, WGAN, CGAN
 
 Dataset generation Method:
 
